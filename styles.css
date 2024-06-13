@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.scrollbar-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.scrollbar-container::-webkit-scrollbar-track {
+  background: #DDD6D7;
+  border-radius: 10px;
+}
+
+.scrollbar-container::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-container.more-width::-webkit-scrollbar {
+  height: 12px;
+}
+
+.font-source-serif-pro {
+  font-family: 'Source Serif Pro', serif;
+}
+.font-bebas-neue {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
