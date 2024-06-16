@@ -2,6 +2,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+:root {
+  --color-primary: #1C1D1D;
+  --color-secondary: #5C553A;
+  --color-accent: #FFFFFA;
+  --color-background: #231F20;
+  --color-sale: #5C7962;
+  --color-text-secondary: #707070;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-background {
+  color: var(--color-background);
+}
+
+.text-sale {
+  color: var(--color-sale);
+}
+
+.text-text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-sale {
+  background-color: var(--color-sale);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+.border-secondary {
+  border-color: var(--color-secondary);
+}
+
+.border-sale {
+  border-color: var(--color-sale);
+}
+
+.badge{
+  position: absolute;
+  text-align: center;
+  border: 1px solid var(--color-primary);
+  border-radius: 9999px;
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  top: 8px;
+  font-size: 8px;
+
+  @media (min-width: 1024px) {
+    font-size: 10px;
+    top: 12px;
+    transform: none;
+  }
+}
+
+.badge-text{
+  position: relative;
+  top: 1px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  letter-spacing: 0.32px;
+
+  @media (min-width: 1024px) {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+  }
+}
+
 .scrollbar-container::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 10px;
