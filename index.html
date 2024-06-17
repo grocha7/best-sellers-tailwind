@@ -37,7 +37,7 @@
                     </ul>
                 </div>
                 <div class="lg:hidden text-center mt-3 pb-9 w-full flex">
-                    <button id="toggle-button" class="w-full bg-primary text-accent flex justify-center items-center gap-2 py-4 px-6 rounded-full font-poppins text-lg font-semibold leading-[1.4] tracking-[0.48px]" aria-expanded="false" aria-controls="product-list" aria-label="Toggle visibility of product list">Show More</button>
+                    <button id="toggle-button" class="w-full bg-primary text-accent flex justify-center items-center gap-2 py-4 px-6 rounded-full font-poppins text-lg font-semibold leading-[1.4] tracking-[0.03em]" aria-expanded="false" aria-controls="product-list" aria-label="Toggle visibility of product list">Show More</button>
                 </div>
             </section>
         </main>
@@ -78,7 +78,7 @@
                             <figcaption class="sr-only">${product.title} - Primary and Secondary Images</figcaption>
                         </figure>
                         <div class="flex flex-col items-start gap-2 px-3 lg:w-[355px]">
-                            <h3 id="product-title-${index}" class="text-primary font-bebas-neue lg:text-lg uppercase lg:tracking-[0.54px] tracking-[0.48px]">${product.title}</h3>
+                            <h3 id="product-title-${index}" class="text-primary font-bebas-neue lg:text-lg uppercase tracking-[0.03em]">${product.title}</h3>
                             <div class="flex items-center gap-1">
                                 <div class="flex items-center gap-[2px]">
                                     ${[...Array(5)].map((star, starIndex) => (index === 0 && starIndex === 4) ? 
