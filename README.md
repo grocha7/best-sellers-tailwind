@@ -31,7 +31,7 @@ Read the below instructions carefully to understand the implementation details:
    - This requires hiding the default browser scrollbar.
 
 6. **Accessibility and SEO:**
-   - Use semantic HTML elements (<header>, <main>, <section>, <h2>) for better structure and readability.
+   - Use semantic HTML elements (```<header>```, ```<main>```, ```<section>```, ```<nav>```, ```<article>```) for better structure and readability.
    - Has ARIA attributes (aria-labelledby, aria-describedby, aria-live, aria-atomic, aria-expanded, aria-controls) to enhance accessibility.
    - Include descriptive alt text for images and proper labels for interactive elements
 
